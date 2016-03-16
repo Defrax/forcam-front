@@ -1,0 +1,142 @@
+.rte {
+    h1 {
+
+    }
+
+    //-------------main-title-----------//
+    h2 {        
+            font-size: 38px;
+            font-family: MorganSans;
+            font-weight: 400;
+            font-style: italic;
+            color: #53596a;
+            border-bottom: 1px solid rgba(108, 114, 131, 0.2);
+            //padding-bottom: 53px;
+            margin: 38px 0 52px;
+    }
+
+    h3 {
+            font-size: 24px;
+            font-family: MorganSans;
+            font-weight: 500;
+            font-style: italic;
+            color: #b41361;
+            line-height: 1.5;
+            margin-bottom: 47px;
+    }
+
+    h4 {
+            font-size: 32px;
+            font-family: MorganSans;
+            font-style: italic;
+            font-weight: 400;
+            color: #005298;
+            line-height: 1.42857;
+            margin-bottom: 37px;
+    }
+
+//-----------------Driving-------//
+    h5 {
+        font-size: 28px;
+        margin: 57px 0 41px;
+        border-bottom: 0px;
+        //padding-bottom: 43px;
+        font-family: MorganSans;
+        font-weight: 400;
+        font-style: italic;
+        color: #53596a;
+    }
+
+//-------------Framework-------------//
+    h6 {
+        font-size: 24px;
+        font-family: MorganSans;
+        font-style: italic;
+        font-weight: 400;
+        color: #005298;
+        line-height: 1.42857;
+        margin-bottom: 37px;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: MorganSans;
+        font-weight: 400;
+        color: #53596a;
+        line-height: 1.5;
+        margin-bottom: 27px;
+    }
+
+    a {
+        color: #ab1c5e;
+    }
+
+    span {
+        color: #22a2e3;
+    }
+
+    img {
+
+    }
+
+    blockquote {
+            color: #ae256d;
+            font-size: 30px;
+            line-height: 42px;
+            font-style: italic;
+            font-weight: 500;
+            position: relative;
+            padding-left: 70px;
+            padding-right: 105px;
+            &:before {
+                content: '';
+                background: url("../img/overview/blockquote.png") no-repeat;
+                position: absolute;
+                top: 8px;
+                left: 0px;
+                height: 25px;
+                width: 36px;
+            }
+            &:after {
+                    content: '';
+                    margin: 24px 0 38px 0px;
+                    height: 3px;
+                    width: 90%;
+                    //border: 3px solid;
+                    display: inline-block;
+                background: -webkit-linear-gradient(left, #ae256b 0%, rgba(131, 205, 242, 0.1) 100%);
+                background: -moz-linear-gradient(left, #ae256b 0%, rgba(131, 205, 242, 0.1) 100%);
+                background: linear-gradient(to right, #ae256b 0%, rgba(131, 205, 242, 0.1) 100%);
+            }
+    }
+
+    hr {
+
+    }
+
+    ul {
+        margin-bottom: 48px;
+        li {
+            font-size: 18px;
+            font-family: MorganSans;
+            font-weight: 400;
+            color: #53596a;
+            line-height: 1.5;
+            margin-bottom: 12px;
+            position: relative;
+            padding-left: 37px;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                float: left;
+                width: 13px;
+                height: 27px;
+                background: url("../img/icon/list-point.png") no-repeat center;
+            }
+        }
+    }
+
+
+}

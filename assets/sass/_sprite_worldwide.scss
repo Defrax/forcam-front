@@ -1,0 +1,60 @@
+/* @import "compass/utilities/sprites";
+@import "worldwide/icon.png";
+@include all-icon-sprites; */
+
+
+/* line 88, worldwide/icon/*.png */
+.icon-sprite, .icon-email, .icon-email_h, .icon-fax, .icon-fax_h, .icon-phone, .icon-phone_h {
+  background-image: url('/assets/img/worldwide/icon-s30472300b8.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-email {
+  background-position: 0 0;
+  height: 13px;
+  width: 18px;
+  display: inline-block;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-email_h {
+  background-position: 0 -13px;
+   height: 11px;
+  width: 16px;
+  display: inline-block;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-fax {
+  background-position: 0 -24px;
+  height: 22px;
+  width: 18px;
+  display: inline-block;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-fax_h {
+  background-position: 0 -46px;
+  height: 16px;
+  width: 14px;
+  display: inline-block;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-phone {
+  background-position: 0 -62px;
+   height: 18px;
+    width: 18px;
+    display: inline-block;
+}
+
+/* line 84, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-phone_h {
+  background-position: 0 -80px;
+  height: 16px;
+    width: 16px;
+    display: inline-block;
+}
+
+/*# sourceMappingURL=sprite_worldwide.css.map */

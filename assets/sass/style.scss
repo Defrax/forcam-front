@@ -1,0 +1,52 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+@import "compass";
+$grid-gutter-width: 0px !default;
+@import "vendor/bootstrap";
+@import "vendor/slicknav/slicknav";
+@import "helpers/variables";
+@import "compass/reset";
+@import "helpers/mixins";
+@import "helpers/functions";
+@import "global";
+@import "global2"; /*Created for non conflict*/
+@import "sprite";
+@import "font-style";
+@import "main";
+//@import "media";
+@import "media-lg";
+@import "media-md";
+@import "media-sm";
+@import "media-xs";
+@import "pages/job-details";
+@import "pages/careers";
+@import "pages/company-video";
+@import "pages/events";
+@import "pages/white-papers";
+@import "pages/overview";
+@import "pages/services";
+@import "pages/team";
+@import "components/owl-carousel";
+@import "components/owl-theme";
+@import "pages/legal";
+@import "layout/header";
+@import "pages/worldwide";
+@import "rte";
+@import "sprite_worldwide";
+@import "pages/partners";
+@import "pages/academy";
+@import "pages/team-profile";
+@import "pages/contact";
+
+// This should be always at the end of the file
+@import "../../drupal";
+
+
+
+/*@import "compass/utilities/sprites";
+@import "icon/*.png";
+@include all-icon-sprites;*/

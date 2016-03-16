@@ -1,0 +1,122 @@
+@media only screen and (max-width: 991px) {
+    /* .mobile-menu {
+        display: inline-block;
+        width: 35%;
+        //height: 94px;
+    } */
+    
+    .head-contact { display: none; }
+    
+   /*  .head-search, .head-contact {
+       min-width: 50%;
+   }
+    */
+    .head-search, .head-contact {
+        span { display: none; }
+    }
+
+ .action-buttons .lang-menu > ul {
+    padding-right: 36px;
+ }
+
+    .slider div {
+    &:first-child {
+        display: none;
+    }
+}
+
+
+.slider h1.mobile-article { 
+    //display: inline-block;
+    font-size: 24px;
+     }
+
+.slider .mobile-button {
+    display: inline-block;
+    margin-right: 15%;
+}
+
+.latest-news-item hr, .latest-news-item p {
+    display: none;
+}
+
+.recent-awards, .clients {
+    //min-height: 320px!important;
+    height: inherit;
+    }
+
+    .clients .clients-banner .borg-warner {
+            top: 40%;
+            right: 27%;
+    }
+
+footer .forcam {
+    min-height: inherit;
+}
+
+    footer .forcam #footer-logo {
+        background-position: 0px -171px;
+    }
+
+    footer nav ul {
+    margin-top: 95px;
+}
+
+ footer nav.links-list dl {
+    
+ }
+
+footer .forcam-menu .forcam .footer-text {
+        margin-left: 0;
+        
+    }
+
+    
+
+
+footer nav.links-list ul.social-list {
+        margin-top: 55px;
+        margin-left: 0!important;
+        li {
+            margin-right: 9%;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .our-team {
+        background-position-x: -180px;
+    }
+
+    footer .container-wraper {
+        padding: 0 20px;
+    }
+
+    footer nav.links-list dl {
+        margin-top: 0;
+        margin-right: 0;
+    font-size: 18px;
+    line-height: 24px;
+    }
+
+    footer .forcam-menu .forcam .footer-text {
+        margin-left: 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    footer .forcam-menu .forcam .footer-logo {
+        background-position: 0;
+    }
+
+    footer .forcam .f-copy {
+    font-size: 16px;
+    //margin-left: -50px;
+    max-width: 100%;
+    line-height: 17px;
+    }
+}

@@ -1,0 +1,36 @@
+.white-paper-page{
+    position: relative;
+    /*START ADJUST GLOBALS*/
+    .glb-content-head{
+        background: url("../img/title/white-papers-ch.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .glb-article{
+        min-height: 320px;
+    }
+    .glb-more-load{
+        height: 208px;
+    }
+    .glb-navigation-pane ul li a {
+        padding-left: 45px;
+    }
+    .glb-control-bar{
+        .wrapper{
+            min-height: 100px;
+        }
+        .title-icon{
+            width: 30px;
+            min-width: 30px;
+            background: url("../img/icon/calendar.png") no-repeat center;
+        }
+    }
+    .glb-search.more-filter{
+        border-bottom: 1px solid #e2e3e6;
+    }
+    .glb-team-adv{
+        min-height: 361px;
+        background: url("../img/team-adv2.jpg") no-repeat top;
+        background-size: cover;
+    }
+    /*END ADJUST GLOBALS*/
+}

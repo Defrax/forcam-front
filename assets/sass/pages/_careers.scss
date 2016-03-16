@@ -1,0 +1,137 @@
+.careers-page{
+	position: relative;
+	/*START ADJUST GLOBALS*/
+	.glb-content-head{
+		background: url("../img/careers-ch2.jpg") no-repeat center;
+		background-size: cover;
+	}
+	.glb-article{
+		min-height: 320px;
+	}
+	.glb-more-load{
+		height: 180px;
+	}
+	/*END ADJUST GLOBALS*/
+	.job-gallery{
+		ul{
+			background-color: #E1E3E6;
+			>li{
+				background: white;
+				display: table;
+				.job-opportunity{
+					width: 50%;
+	    			display: table-cell;
+	    			position: relative;
+	    			@media (max-width: 767px){
+	    				width: 100%;
+	    				display: block;
+	    			}
+					&:nth-of-type(1){
+						background-color: rgba(108, 114, 131, 0.1);
+					}
+					&:nth-of-type(2){
+						background-color: rgba(108, 114, 131, 0.2);
+					}
+				}
+			}
+		}
+	}
+	.job-title{
+		@include aspect-ratio(320, 191);
+		>.wrapper{
+			overflow: hidden;
+			img{
+				width: 100%;
+			}
+			a{
+				font-size: 24px;
+				font-family: MorganSans;
+				font-weight: 500;
+				color: #ffffff;
+				line-height: 1.333;
+				position: absolute;
+			    bottom: 0;
+			    width: 100%;
+			    padding: 0 10px 0 7.8%;
+			    margin-bottom: 39px;
+			    text-decoration: none;
+			}
+			.overlay{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: -moz-linear-gradient(top,  rgba(255,255,255,0) 44%, rgba(28,38,61,0.71) 94%, rgba(28,38,61,0.8) 100%);
+				background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 44%,rgba(28,38,61,0.71) 94%,rgba(28,38,61,0.8) 100%);
+				background: linear-gradient(to bottom,  rgba(255,255,255,0) 44%,rgba(28,38,61,0.71) 94%,rgba(28,38,61,0.8) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#cc1c263d',GradientType=0 );
+			}
+		}
+	}
+	.job-desc{
+		padding: 0 7.8% 96px;
+		p{
+			font-size: 18px;
+			font-family: MorganSans;
+			color: rgb(83, 89, 106);
+			line-height: 1.5;
+			padding: 39px 0 34px;
+		}
+	}
+	.jd-foot{
+	    border-top: 1px solid rgba(108, 114, 131, 0.2);
+	    padding: 30px 0 42px;
+	    max-height: 96px;
+	    position: absolute;
+	    bottom: 0;
+	    width: calc(100% - 15.6%);
+	    margin: 0 7.8%;
+		.location{
+			font-size: 14px;
+			font-family: MorganSans;
+			color: rgba(42, 56, 92, 0.561);
+			text-transform: uppercase;
+			line-height: 1.714;
+			float: left;
+			margin-right: 4px;
+		}
+		.wrapper{
+			float: right;
+		}
+		.share, .read-more{
+			font-size: 14px;
+			font-family: MorganSans;
+			color: rgb(0, 158, 223);
+			font-weight: bold;
+			text-transform: uppercase;
+			line-height: 1.714;
+			float: right;
+			margin-left: 16px;
+			a:hover .icon{
+				color: #23527c;
+			}
+			.icon{
+				color: rgba(108, 114, 131, 0.6);
+				&.icon-read-more{
+					font-size: 12px;
+					margin-left: 12px;
+				}
+				&.icon-share-icon{
+					vertical-align: middle;
+					margin-left: 11px;
+				}
+			}
+		}
+		.read-more{
+			border-left: 1px solid rgba(108, 114, 131, 0.3);
+			padding-left: 16px;
+		}
+	}
+
+
+	.glb-subscription input[type="email"] {
+		font-size: 16px;
+	}
+}
+

@@ -1,0 +1,194 @@
+@media only screen and (min-width: 1910px) and (min-width: 1345px) {
+    .header-logo {
+        width: 12%;
+    }
+    .head {
+        width: 56%;
+        ul { margin-right: 25px; }
+    }
+    .action-buttons {
+        width: 30.01%
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1910px) and (min-width: 1510px) {
+    .head{
+        width: 50%;
+         ul {
+            //display: none;
+            margin-left: 4%;
+            li {
+                margin-right: 25px;
+                a {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .action-buttons {
+        width: 30.01%;
+        //i { display: none; }
+    }
+
+}
+
+@media only screen and (max-width: 1510px) and (min-width: 1345px) {
+    .head{
+        width: 50%;
+         ul {
+            //display: none;
+            margin-left: 4%;
+            li {
+                margin-right: 24px;
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .action-buttons {
+        .lang-menu li:first-child:after { 
+            //display: none; 
+            right: 10px;
+        }  
+
+        width: 30.01%;
+        //i { display: none; }
+    }
+
+    .dropdown-contact {
+        height: 775px;
+    }
+
+
+  // .forcam-academy .description {
+  //       //position: absolute;
+  //       //bottom: 42px;
+  //       margin-top: 150px;
+  //       color: #fff;
+  //   }
+}
+
+
+
+@media only screen and (max-width: 1540px) and (min-width: 1200px) {
+            footer nav ul.social-list {
+        width: 60%;
+    }
+
+
+    footer nav.links-list dl:nth-child(1), footer nav.links-list dl:nth-child(2) {
+        width: 33.33333%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+    footer nav.links-list ul {
+        margin-top: 55px;
+        margin-left: 39%!important;
+        li {
+            margin-right: 9%;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+footer .forcam, footer nav.links-list {
+    min-height: 330px!important;
+    dl {
+        margin-top: 74px;
+        margin-right: 5%;
+    }
+    
+  /*   dl:last-child {
+     margin-right: 0;
+  } */
+}
+    
+  footer .container-wraper dl {
+        &:nth-child(3) {
+            margin-right: 0;
+        }
+    }
+
+footer .container-wraper {
+        margin: 0;
+        position: relative;
+    }
+
+footer .forcam #footer-logo {
+    transform: scale(0.75, 0.78);
+    -webkit-transform: scale(0.75, 0.78);
+    -moz-transform: scale(0.75, 0.78);
+    margin: 54px 40px 0 -35px;
+    background-position: 34px -171px;
+    display: inline-block;
+    //width: 334px;
+    height: 53px;
+}
+
+footer .forcam .f-copy {
+    position: absolute;
+    top: 70px;
+    color: #6c7283;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: -50px;
+    max-width: 164px;
+    line-height: 17px;
+}
+
+
+  footer .forcam .footer-text {
+            color: #6c7283;
+            margin: 26px 0 0 20px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+}
+
+
+
+/* @media only screen and (max-width: 1700px) {
+    nav > ul.header-menu>li{
+        margin-left: 100px;
+        display: none;
+    }
+
+        .head-search, .head-contact {
+        span { display: none; }
+    }
+    
+    .head-contact { display: none; }
+    
+    nav > ul.header-menu>li {
+        &:last-child { 
+            display: inline-block;
+            margin-left: 20px;
+            border-left: 0px;
+        }
+    }
+    
+    .mobile-menu { display: inline-block;
+                    height: 96px;
+                    min-width: 30%; 
+                    }
+    
+    .head-search, .head-contact {
+        min-width: 50%;
+    }
+    
+    .head-search, .head-contact {
+        span { display: none; }
+    }
+} 
+*/
+

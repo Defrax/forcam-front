@@ -1,0 +1,51 @@
+$rem-base: 16px;
+
+@function strip-unit($num) {
+	@return $num / ($num * 0 + 1);
+}
+
+@function convert-to-rem($value, $base-value: $rem-base) {
+	$value: strip-unit($value) / strip-unit($base-value) * 1rem;
+@if ($value == 0rem) { $value: 0; } // Turn 0rem into 0
+@return $value;
+}
+
+@function rem-calc($values, $base-value: $rem-base) {
+	$max: length($values);
+	@if $max == 1 { @return convert-to-rem(nth($values, 1), $base-value); }
+	$remValues: ();
+	@for $i from 1 through $max {
+		$remValues: append($remValues, convert-to-rem(nth($values, $i), $base-value));
+	}
+	@return $remValues;
+}
+
+@media (min-width: 1680px) and (max-width: 1920px){
+	html{
+		//font-size: 87.5%;
+	}
+}
+@media (min-width: 1440px) and (max-width: 1680px){
+	html{
+		//font-size: 75%;
+		font-size: 87.5%;
+	}
+}
+@media (min-width: 1280px) and (max-width: 1440px){
+	html{
+		//font-size: 67%;
+		font-size: 75%;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1280px){
+	html{
+		//font-size: 53%;
+		font-size: 67%;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	html{
+		//font-size: 39%;
+		font-size: 53%;
+	}
+}

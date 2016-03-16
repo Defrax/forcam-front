@@ -1,0 +1,326 @@
+.academy-page{
+	position: relative;
+	/*START ADJUST GLOBALS*/
+	.glb-content-head{
+		background-size: cover;
+	}
+	.glb-article{
+		min-height: 320px;
+	}
+	.glb-more-load{
+		height: 180px;
+	}
+	.glb-navigation-pane ul li a{
+		padding-left: 44px;
+	}
+	.glb-control-bar{
+		.icon-screen-icon{
+			color: #0192d1;
+			font-size: 33px;
+			width: 33px;
+		}
+		.icon-books{
+			color: rgba(158,163,179,0.6);
+			font-size: 33px;
+			width: 33px;
+		}
+	}
+	.glb-entry-plate .entry-title > .wrapper .play-btn{
+		background: url("../img/icon/play-btn.png") no-repeat center;
+		background-size: contain;
+		display: block;
+		position: absolute;
+		top: rem-calc(40px);
+		right: 0;
+		left: calc(100% - 6rem);
+		width: rem-calc(56px);
+		height: rem-calc(56px);
+		margin: 0;
+		padding: 0;
+	}
+	.glb-article{
+		padding: 46px 14% 40px;
+		h3{
+			margin-bottom: 51px;
+		}
+	}
+	.glb-entry-plate .entry-desc{
+		padding: 0 7.8% 86px;
+	}
+	.glb-entry-plate .entry-foot{
+		padding: 30px 0 33px;
+	}
+	/*END ADJUST GLOBALS*/
+
+	/*START UPCOMING-COURSES*/
+	.upcoming-courses{
+		background-image: -moz-linear-gradient( 122deg, rgb(2,137,200) 0%, rgb(0,158,223) 94%);
+		background-image: -webkit-linear-gradient( 122deg, rgb(2,137,200) 0%, rgb(0,158,223) 94%);
+		background-image: -ms-linear-gradient( 122deg, rgb(2,137,200) 0%, rgb(0,158,223) 94%);
+		padding: rem-calc(38px) 6.0% rem-calc(83px) 7.1%;
+		li{
+			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+			padding: rem-calc(32px 180spx 28px 82px);
+			position: relative;
+			&:last-of-type{
+				border: none;
+			}
+		}
+		.title{
+			font-size: 24px;
+			font-family: MorganSans;
+			color: rgba(255, 255, 255, 0.9);
+			line-height: 1.71;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+			padding: rem-calc(0 0 23px 4px);
+		}
+		.date{
+			font-size: 14px;
+			font-family: MorganSans;
+			color: rgb(103, 211, 255);
+			font-weight: bold;
+			text-transform: uppercase;
+			line-height: 1.714;
+			position: absolute;
+			left: 0;
+			top: rem-calc(33px);
+		}
+		.desc{
+			font-size: 18px;
+			font-family: MorganSans;
+			color: rgb(255, 255, 255);
+			line-height: 1.333;
+			float: left;
+		}
+		.apply-btn{
+			font-size: 14px;
+			font-family: MorganSans;
+			color: rgb(255, 255, 255);
+			font-weight: bold;
+			font-style: italic;
+			line-height: 40px;
+			transform: skewX(162deg);
+			-webkit-transform: skewX(162deg);
+			-moz-transform: skewX(162deg);
+			background: #00adec;
+			position: absolute;
+			top: rem-calc(22px);
+			right: rem-calc(20px);
+			padding: rem-calc(0 40px 0 26px);
+			.glb-unskrew{
+				display: block;
+			}
+			.icon-read-more{
+				position: absolute;
+				top: 14px;
+				right: -23px;
+				font-size: 12px;
+			}
+			&.full{
+				background: rgba(0,90,158,0.34);
+				padding: rem-calc(0 33px 0 33px);
+				.icon-read-more{
+					display: none;
+				}
+			}
+		}
+	}
+	/*END UPCOMING-COURSES*/
+
+	/*START TESTIMONIALS*/
+	.testimonials{
+		min-height: 694px;
+		background: url("../img/academy/testimonials.jpg") no-repeat right top;
+	    background-size: cover;
+	    position: relative;
+	    .title{
+	    	min-height: 100px;
+	    	padding: 0 7.8%;
+	    	margin-bottom: 35px;
+	    	border-bottom: 1px solid rgba(255,255,255, 0.45);
+	    	position: relative;
+	    	>span{
+	    		font-size: 18px;
+	    		font-family: MorganSans;
+				font-weight: 400;
+	    		color: rgba(255, 255, 255, 0.9);
+	    		text-transform: uppercase;
+	    		line-height: 1.5;
+	    		padding: 36px 0;
+	    		>.all{
+	    			font-size: 15px;
+	    			font-family: MorganSans;
+					font-style: italic;
+					font-weight: 400;
+	    			color: #ffffff;
+	    			float: right;
+	    			text-transform: none;
+	    			text-decoration: none;
+	    		}
+	    	}
+	    }
+	    .content{
+	    	position: absolute;
+	    	top: 100px;
+	    	bottom: 0;
+	    	left: 0;
+	    	right: 0;
+	    	.speech-bubble{
+	    		background-color: rgba(179, 34, 108, 0.85);
+	    		width: 364px;
+	    		padding: 35px 34px 30px;
+	    		position: absolute;
+	    		bottom: 144px;
+	    		right: 30px;
+	    		font-size: 18px;
+	    		font-family: MorganSans;
+	    		color: rgb(255, 255, 255);
+	    		font-style: italic;
+	    		line-height: 1.5;
+	    		&:before{
+	    			content: '';
+	    			position: absolute;
+	    			left: -43px;
+	    			top: 65px;
+	    			width: 0;
+	    			height: 0;
+	    			border-top: 30px solid rgba(179, 34, 108, 0.85);
+	    			border-left: 43px solid transparent;
+	    		}
+	    		&:after{
+	    			content: "- Roger White, Transtech U.S.";
+	    			font-size: 15px;
+	    			font-family: MorganSans;
+	    			font-style: normal;
+	    			color: #ffffff;
+	    			line-height: 1.8;
+	    			position: absolute;
+	    			bottom: -46px;
+	    			right: 0;
+	    		}
+	    	}
+	    }
+	    .overlay{
+	    	position: absolute;
+	    	top: 0;
+	    	bottom: 0;
+	    	left: 0;
+	    	right: 0;
+	    	&.lvl1{
+	    		background: -moz-linear-gradient( 90deg, rgba(255,255,255, 0) 64%, rgba(0,0,0, 0.3) 100%);
+	    		background: -webkit-linear-gradient( 90deg, rgba(255,255,255, 0) 64%, rgba(0,0,0, 0.3) 100%);
+	    		background: -ms-linear-gradient( 90deg, rgba(255,255,255, 0) 64%, rgba(0,0,0, 0.3) 100%);
+	    	}
+	    	&.lvl2{
+	    		background: rgba(0,0,0, 0.2);
+	    	}
+	    	&.lvl3{
+	    		background: url("../img/academy/overlay.png") no-repeat center;
+	    		background-size: cover;
+	    	}
+	    }
+	}
+	/*END TESTIMONIALS*/
+
+	/*START ACADEMY-CALENDAR*/
+	.academy-calendar{
+		min-height: 460px;
+		background: #009edf;
+		padding: 37px 50px;
+		.hasDatepicker{
+			margin-top: -42px;
+		}
+		.ui-datepicker{
+			width: 100%;
+
+		}
+		.ui-datepicker td{
+			padding: 12px 0 0;
+		}
+		.ui-widget-content{
+			border: none;
+			background: #009edf;
+			padding: 0;
+		}
+		.ui-datepicker .ui-datepicker-header{
+			display: inline-block;
+			float: right;
+			background: none;
+			border: none;
+			margin-bottom: 20px;
+		}
+		.ui-datepicker-title{
+			font-size: 15px;
+			font-family: MorganSans;
+			color: rgb(255, 255, 255);
+			font-style: italic;
+			line-height: 2.736;
+			font-weight: 500;
+		}
+		.ui-datepicker .ui-datepicker-prev span,
+		.ui-datepicker .ui-datepicker-next span{
+			display: none;
+		}
+		.ui-datepicker .ui-datepicker-prev{
+			background: url("../img/icon/arr-right-white.png") no-repeat center top 5px;
+			transform: rotate(180deg);
+			-webkit-transform: rotate(180deg);
+			-moz-transform: rotate(180deg);
+		}
+		.ui-datepicker .ui-datepicker-next{
+			background: url("../img/icon/arr-right-white.png") no-repeat center bottom 5px;
+		}
+		.title{
+			font-size: 24px;
+			font-family: MorganSans;
+			color: rgba(255, 255, 255, 0.9);
+			line-height: 1.71;
+		}
+		.ui-state-default, .ui-widget-content .ui-state-default{
+			text-align: center;
+			background: none;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			margin: 0;
+			margin: 0 auto;
+			padding: 0;
+			border-radius: 50%;
+			color: white;
+			border: none;
+			font-size: 18px;
+			font-family: MorganSans;
+			color: rgb(255, 255, 255);
+		}
+		.ui-state-active, .ui-widget-content .ui-state-active{
+			background: #00adec;
+			border: none;
+		}
+		.ui-state-hover, .ui-widget-content .ui-state-hover{
+			border: none;
+		}
+		.ui-widget-content .ui-state-hover{
+			background: #b3226c;
+			&.ui-datepicker-prev-hover{
+				background: url("../img/icon/arr-right-white.png") no-repeat center top 5px;
+				transform: rotate(180deg);
+				-webkit-transform: rotate(180deg);
+				-moz-transform: rotate(180deg);
+			}
+			&.ui-datepicker-next-hover{
+				background: url("../img/icon/arr-right-white.png") no-repeat center bottom 5px;
+			}
+		}
+		.ui-datepicker-calendar thead{
+			background-color: rgba(0, 82, 152, 0.3);
+			th span{
+				font-size: 14px;
+				font-family: MorganSans;
+				color: rgb(255, 255, 255);
+				text-transform: uppercase;
+				line-height: 1.714;
+			}
+		}
+	}
+	/*END ACADEMY-CALENDAR*/
+}

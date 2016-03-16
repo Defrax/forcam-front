@@ -1,0 +1,32 @@
+.events-page{
+    position: relative;
+    /*START ADJUST GLOBALS*/
+    .glb-content-head{
+        background: url("../img/title/events-ch.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .glb-article{
+        min-height: 320px;
+    }
+    .glb-more-load{
+        height: 180px;
+    }
+    .glb-navigation-pane ul li a {
+        padding-left: 45px;
+    }
+    .glb-control-bar{
+        .wrapper{
+            min-height: 100px;
+        }
+        .title-icon{
+            width: 30px;
+            min-width: 30px;
+            background: url("../img/icon/calendar.png") no-repeat center;
+        }
+    }
+
+    .entry-foot a {
+            color: #009edf;
+    }
+    /*END ADJUST GLOBALS*/
+}

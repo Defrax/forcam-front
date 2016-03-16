@@ -1,0 +1,536 @@
+.services {
+    background-color: #f1f2f2;
+}
+
+.services-article {
+    background-color: #fff;
+    padding: 40px 14.5% 0;
+}
+
+.services .glb-content-head {
+    min-height: 420px;
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+    
+}
+
+.services .head-img {
+    background: url(../img/services/head.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 20%;
+    //background: transparent;
+    height: 420px;
+    &:after {
+        //background: transparent;
+        //background-color: #a4a6b2;
+        //background-color: #9495a0;
+//background-image: linear-gradient(-17deg, rgba(230, 230, 230, 0.17) 0%, rgba(230, 230, 230, 0.17) 49%, rgba(0, 0, 0, 0.17) 100%);
+    /* background: -moz-linear-gradient(top, rgba(255, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 0, 0, 0.8)), color-stop(100%, rgba(0, 0, 0, 0.1)));
+    background: -webkit-linear-gradient(top, rgba(255, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 100%); */
+    background-image: -moz-linear-gradient( 107deg, rgba(255,255,255,0.1) 49%, rgba(0,0,0,0.6) 100%);
+  background-image: -webkit-linear-gradient( 107deg, rgba(255,255,255,0.1) 49%, rgba(0,0,0,0.6) 100%);
+  background-image: -ms-linear-gradient( 107deg, rgba(255,255,255,0.1) 49%, rgba(0,0,0,0.6) 100%);
+/*   left: 0px;
+top: 110px;
+width: 1280px;
+height: 420px;
+z-index: 125; */
+
+
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
+}
+
+.services h2.title {
+    position: absolute;
+        top: -9px;
+        line-height: 1.3;
+        //font-size: 24px;
+        color: #fff;
+        left: -4px;
+}
+
+.services-article .main-title {
+    border-bottom: 0px;
+    margin-bottom: 0;
+    font-size: 38px;
+    margin: 44px 0 0;
+    padding-bottom: 45px;
+}
+
+.services-article p {
+        line-height: 1.65;
+        margin-bottom: 39px;
+        letter-spacing: -0.22px;
+}
+
+.services-article h4 {
+    color: #53596a;
+    margin: 56px 0 37px;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.services-article .ov-blockquote {
+    color: #ae256d;
+    font-size: 30px;
+    line-height: 42px;
+    font-style: italic;
+    font-weight: 500;
+    position: relative;
+    padding-left: 70px;
+    margin-top: 66px;
+    letter-spacing: 0.4px;
+         &:before {
+            content: '';
+        background: url("../img/overview/blockquote.png") no-repeat;
+             position: absolute;
+                 top: 8px;
+                left: 0px;
+                height: 25px;
+                width: 36px;
+    }
+}
+
+.services-article hr {
+        margin: 37px 0 48px 70px;
+        height: 3px;
+        width: 90%;
+    background: linear-gradient(to right, #ae256b 0%, rgba(131, 205, 242, 0.1) 100%);
+}
+
+
+.services-article img {
+    width: 100%;
+    height: 513px;
+    margin-bottom: 11px;
+}
+
+.services-article .background-title {
+    color: #005298;
+    font-size: 32px;
+    font-style: italic;
+    margin: 46px 0 -4px;
+}
+
+.services-article p:last-of-type {
+    margin-bottom: 39px;
+}
+
+.services-article ul li {
+    margin-bottom: 15px;
+    letter-spacing: -0.2px;
+}
+
+aside .list-section {
+    margin-bottom: 40px;
+}
+
+.twitter {
+    min-height: 380px;
+    //margin-top: 40px;
+    padding-top: 45px;
+     .content-wrapper {
+        //padding: 0 130px 0 50px;
+        line-height: 1.5;
+    }
+    .module-button {
+            margin-bottom: 49px;
+            a {
+                margin-top: 8px;
+                span {
+                        left: 15%;
+                        top: 39%;
+                        font-weight: 400;
+                }
+                i {
+                        font-size: 14px;
+                        right: 24px;
+                }
+            }
+    }
+    .quick-menu {
+    margin-top: 6.5%;
+    float: left;
+    margin-bottom: 36px;
+    li.time {
+        font-weight: 500;
+        color: #70d5ff;
+        letter-spacing: 0.5px;
+            border-right: solid 1px #5ab5e4;
+    }
+     li.share a {
+        font-size: 14px;
+        i {
+            color: #70bfea;
+        }
+     }
+    }
+}
+
+aside .forcam-academy .description h2 {
+    bottom: 31px;
+    font-size: 18px;
+}
+
+aside .forcam-academy {
+    background-image: url('../img/banner-forcam-academy.png');
+    .content-wrapper {
+        padding: 0 50px;
+    }
+    padding-top: 47px;
+    h1 {
+        letter-spacing: 0.5px;
+    }
+    nav {
+        margin-right: 55px;
+    } 
+    .btn {
+        margin: 8px -9px 0 0;
+        span {
+                left: 15%;
+        }
+        i {
+         right: 25px;
+         }
+    }
+} 
+
+
+
+
+aside .discover {
+	min-height: 530px;
+	background: url(../img/services/discover.jpg) no-repeat center;
+	background-size: cover;
+    position: relative;
+	h3 {
+		display: inline-block;
+		margin: 34px 0 0 50px;
+        letter-spacing: 0.5px;
+		//color: #1862a1;
+  font-size: 20px;
+  font-family: "MorganSans";
+  color: rgba(0, 82, 152, 0.902);
+  text-transform: uppercase;
+  line-height: 2.052;
+  /* text-align: left;
+  position: absolute;
+  left: 1326.87px;
+  top: 1483.98px;
+  z-index: 33; */
+
+
+	}
+	a.btn {
+            width: 159px;
+            height: 50px;
+            padding-right: 52px;
+            float: left;
+            font: 16px MorganSans;
+            background-image: -webkit-linear-gradient(left, #801d67 0%, #b73558 100%);
+            background-image: -o-linear-gradient(left, #801d67 0%, #b73558 100%);
+            background-image: linear-gradient(to right, #801d67 0%, #b73558 100%);
+            border: 0;
+            position: absolute;
+			top: 448px;
+            right: 56px;
+            span {
+                    transform: skewX(-162deg);
+                    -webkit-transform: skewX(-162deg);
+                    -moz-transform: skewX(-162deg);
+                    position: absolute;
+                    font-family: MorganSans;
+                    font-style: italic;
+                    top: 34%;
+                    left: 20%;
+                    font-weight: 400;
+                    font-size: 15px;
+            }
+            i {
+                position: absolute;
+                right: 25px;
+                color: #fff;
+                font-size: 12px;
+                line-height: 60px;
+                top: -4px;
+            }
+        }
+}
+
+
+/* ------------------Media------------------------------ */
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+    .services-article {
+        padding: 40px 5% 0;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .services .col-main .glb-content-head , .services .head-img {
+    height: 332px;
+    min-height: inherit;
+}
+
+.services h2.title {
+    font-size: 64px;
+    top: -4px;
+    left: -4px;
+}
+
+.services .breadcrumbs {
+    display: none;
+}
+
+
+
+.services-article {
+    background-color: #fff;
+    padding: 40px 7% 0 7%;
+    h2.main-title {
+            font-size: 56px;
+            line-height: 1.3;
+            margin: 14px 0 0px;
+            padding-bottom: 38px;
+    }
+    p {
+        line-height: 1.5;
+        margin-bottom: 36px;
+            font-size: 32px;
+        letter-spacing: -0.5px;
+            margin-top: 3px;
+    }
+
+    span.web-based {
+        color: #259fe2;
+    }
+
+    .machine-img {
+        margin-bottom: 59px;
+    }
+
+    img {
+            margin-bottom: 0px;
+            margin-top: 13px;
+            height: 362px;
+    }
+
+    .image-caption {
+            height: 80px;
+            bottom: 3px;
+            h6 {
+                font-size: 28px;
+                margin: 27px 19px;
+            }
+    }
+
+    h2.background-title {
+            font-size: 47px;
+            line-height: 1.3;
+            margin: 68px 0 14px;
+            padding-bottom: 38px;
+    }
+
+    h4 {
+        margin: 55px 0 34px;
+        font-size: 43px;
+        letter-spacing: -0.4px;
+    }
+
+    .above-list {
+        margin-top: 48px;
+    }
+
+    ul {
+        margin-bottom: 86px;
+        li {
+            line-height: 50px;
+            font-size: 32px;
+            letter-spacing: -0.5px;
+            margin: -2px 0 22px 22px;
+            &:before {
+                top: 12px;
+                left: -12px;
+                transform: scale(2, 2);
+                -webkit-transform: scale(2, 2);
+                -moz-transform: scale(2, 2);
+            }
+        }
+    }
+
+
+    blockquote.ov-blockquote {
+        letter-spacing: -0.5px;
+        margin-top: 73px;
+        line-height: 53px;
+        margin-left: 30px;
+        font-size: 36px;
+        margin-bottom: 39px;
+        &:before {
+                top: 2px;
+                left: -28px;
+                height: 37px;
+                width: 53px;
+
+                padding-right: 0;
+                background: url('../img/overview/bv.png');
+        }
+    }
+
+    .blockquote-unline {
+        margin: 12px 0 67px 100px;
+    }
+
+    .gears-img {
+            height: 360px;
+            margin: 23px 0 0 0;
+    }
+
+     .framework {
+            font-size: 36px;
+            margin-top: 61px;
+    }
+
+    p:last-of-type {
+        margin-bottom: 36px;
+    }
+}
+
+
+//-------------------------ASIDE-----------------//
+
+aside .forcam-academy {
+    background: url("../img/overview/banner-forcam-02.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 62px;
+    letter-spacing: 0.6px;
+    height: 525px;
+        .content-wrapper {
+        padding: 0px 50px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        margin-right: 68px;
+        a.btn {
+            margin: 0px -13px 0 0;
+            height: 77px;
+            width: 365px;
+                span {
+                font-size: 28px;
+                left: 8%;
+            }
+                i {
+                    right: 36px;
+                    top: 11px;
+                    font-size: 20px;
+                }
+        }
+    }
+
+  .description  h2 {
+        font-size: 30px;
+        line-height: 43px;
+        letter-spacing: -0.5px;
+        padding-right: 185px;
+        bottom: 41px;
+            br {
+                display: block;
+            }
+        }
+}
+
+
+.services aside .twitter {
+    height: 596px;
+    margin-top: 35px;
+    padding-top: 54px;
+    h1{
+        font-size: 24px
+    }
+    nav.module-button {
+        margin-right: 71px;
+        margin-bottom: 62px;
+        a.btn {
+                height: 78px;
+                width: 273px;
+                margin-top: 8px;
+                span {
+                    left: 16%;
+                    top: 32%;
+                    font-size: 28px;
+                }
+                i {
+                    font-size: 26px;
+                    right: 33px;
+                    top: 13px;
+                }
+        }
+    }
+
+    p.content-wrapper {
+        padding: 0 50px 0 50px;
+        font-size: 32px;
+        letter-spacing: -0.5px;
+    }
+
+    ul.quick-menu{
+        margin-top: 11.7%;
+        li.time, li.share {
+            font-size: 24px;
+            a {
+                font-size: 24px;
+                i {
+                    margin-left: 18px;
+                }
+            }
+        }
+        .time {
+            margin-right: 20px;
+            padding-right: 20px;
+        }
+    } 
+
+}
+
+.services aside .discover {
+    min-height: 723px;
+    h3 {
+        font-size: 28px;
+        margin: 53px 0 0 50px;
+    }
+    a.btn {
+        width: 326px;
+        height: 80px;
+        top: 600px;
+        right: 65px;
+        span {
+            font-size: 28px;
+            left: 13%;
+            top: 30%;
+        } 
+        i {
+            top: 9px;
+            right: 39px;
+            font-size: 20px;
+        }
+    }
+}
+
+
+}

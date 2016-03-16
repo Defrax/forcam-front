@@ -1,0 +1,420 @@
+      .contact.glb-content-head{
+            background: url("../img/contact/head-img.jpg") no-repeat center;
+            background-size: cover;
+            background-position-y: 25%;
+        }
+
+      .contact {
+           
+
+        article h3:first-child {
+                letter-spacing: -0.3px;
+                margin-top: 42px;
+            &:after {
+                //background-image: linear-gradient(to right, #c0c4cc 0%, #c0c4cc 100%);
+                background-image: inherit;
+                opacity: 0.5;
+            }
+        }
+
+
+
+        .glb-content-form {
+            background: inherit;
+            padding-top: 0;
+             form input[type=text], form input[type=email], select , textarea {
+                //border-bottom: 2px solid #ccc;
+                box-shadow: 0px 1px 2px #aaa;
+             }
+
+             form textarea {
+                height: 170px;
+                margin-bottom: 26px;
+             }
+
+             form label {;
+                font-size: 14px;
+                &:first-of-type {
+                    margin-right: 40px;
+                }
+             }
+
+
+            input[type="radio"] {
+                display: none;
+            }
+
+            input[type="radio"] + label span {
+                display:inline-block;
+                width: 26px;
+                height: 26px;
+                margin:0px 20px 0 0;
+                vertical-align:middle;
+                    /* background: url(..//img/contact/elipse.png) left top no-repeat; */
+                cursor: pointer;
+                background-color: #fff;
+                border-radius: 50%;
+                border: 3px solid #dbdfde;
+                cursor:pointer;
+            }
+
+            input[type="radio"]:checked + label span {
+                background: url(..//img/contact/elipse.png)  center no-repeat;
+                background-position: 4px 4px;
+                border: 3px solid #8acff6;
+}
+
+
+             button {
+                float: right;
+                padding-right: 126px;
+                margin-right: 10px;
+                padding-left: 91px;
+                span {
+                    top: 34%;
+                    left: 12%;
+                    font-size: 16px;
+                }
+                i {
+                    right: 21px;
+                    top: 18px;
+                    font-size: 12px;
+                }
+             }
+        }
+      }   
+
+
+
+/* ------------------------ASIDE---------------------- */
+
+.contact .global-map{
+        position: relative;
+        &:after {
+            width: 0;
+            height: 0;
+            border-top: 13px solid #005298;
+            border-right: 14px solid transparent;
+            border-left: 14px solid transparent;
+            position: absolute;
+            bottom: -10px;
+            left: 47.6%;
+        }
+        div.glb-table{
+            padding: 28px 5.78% 0;
+        }
+        .map-section{
+            width: 75.44%;
+            .world-map{
+                @include aspect-ratio(426, 201);
+                .wrapper{
+                    background: url("../img/icon/world-map-with-markers.png") no-repeat center;
+                    background-size: cover;
+                    .geo-markers{
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        .geo-marker{
+                            width: 12px;
+                            height: 12px;
+                            border: 3px solid #0E5099;
+                            border-radius: 50%;
+                            background: #F7941D;
+                            position: absolute;
+                            top: 37.5%;
+                            left: 18.7%;
+                            -webkit-box-shadow: 0px 0px 0px 2px rgba(247,149,29,1);
+                            -moz-box-shadow: 0px 0px 0px 2px rgba(247,149,29,1);
+                            box-shadow: 0px 0px 0px 2px rgba(247,149,29,1);
+                            &.active{
+                                background: #C6EBF8;
+                                border: 3px solid #0E5099;
+                                -webkit-box-shadow: 0px 0px 0px 2px rgba(183,230,246,1);
+                                -moz-box-shadow: 0px 0px 0px 2px rgba(183,230,246,1);
+                                box-shadow: 0px 0px 0px 2px rgba(183,230,246,1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .map-nav-section{
+            width: 24.56%;
+            padding-left: 48px;
+            .map-nav{
+                ul{
+                    li{
+                        font-size: rem-calc(14px);
+                        font-family: MorganSans;
+                        color: rgb(99, 207, 244);
+                        line-height: 2.714;
+                        min-height: inherit;
+                        border: none;
+                        &:hover{
+                            color: #ffffff;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    /* ----------------------------map-info-------------- */
+
+          .contact .map-info {
+            //width: rem-calc(378px);
+            width: 100%;
+            min-height: 248px;
+            background-color: #2292d4;
+            display: inline-block;
+            border-top: 0;
+            //margin: 2.2% 0 0 41.2%;
+            //position: absolute;
+            top: 6%;
+            right: 39%;
+            //padding: 0 20px;
+            //display: none;
+            .content-wrapper {
+                padding: 0 50px;
+            }
+            h4 {
+                font-size: rem-calc(20px);
+                font-family: MorganSans;
+                font-style: normal;
+                font-weight: 400;
+                color: #fff;
+                line-height: 1.42857;
+                //margin-top: 17px;
+                padding: 47px 51px 12px;
+                border-bottom: 0;
+                position: relative;
+            }
+
+            h5 {
+                margin-top: 15px;
+                letter-spacing: 0.5px;
+                color: #6dcef8;
+                font-size: rem-calc(15px);
+            }
+
+            p {
+                font-size: rem-calc(16px);
+                font-family: MorganSans;
+                font-weight: 400;
+                color: #fff;
+                line-height: 1.5;
+                margin-bottom: 27px;
+                margin-top: 9px;
+            }
+
+            ul {
+                margin-top: 14px;
+                border-left: 1px solid #4cb7ed;
+                li {
+                                margin-bottom: 12px;
+                                font-size: rem-calc(16px);
+                                font-family: MorganSans;
+                                font-weight: 400;
+                                color: #fff;
+                                line-height: 1.5;
+                                position: relative;
+                                padding-left: 84px;
+                        &:first-child:before {
+                                content: "";
+                                position: absolute;
+                                top: 1px;
+                                left: 37px;
+                                float: left;
+                                background: url('../img/worldwide/icon-s30472300b8.png');
+                                background-position: 0 -80px;
+                                height: 16px;
+                                width: 16px;
+                        }
+                                &:nth-child(2):before {
+                                        content: "";
+                                        position: absolute;
+                                        top: 3px;
+                                        left: 38px;
+                                        float: left;
+                                        background: url('../img/worldwide/icon-s30472300b8.png');
+                                        background-position: 0 -46px;
+                                        height: 16px;
+                                        width: 14px;
+                        }
+                        &:nth-child(3):before {
+                                        content: "";
+                                        position: absolute;
+                                        top: 5px;
+                                        left: 37px;
+                                        float: left;
+                                        background: url('../img/worldwide/icon-s30472300b8.png');
+                                        background-position: 0 -13px;
+                                        height: 11px;
+                                        width: 16px;
+                        } 
+                    }
+            } 
+        }
+
+
+@media only screen and (max-width: 1200px) {
+    .contact .contact-article {
+        padding: 40px 5% 0;
+    }
+
+    .contact .glb-content-form {
+        padding: 0 5% 81px;
+    }
+
+    .contact .global-map .map-nav-section .map-nav ul li {
+        font-size: 14px;
+    }
+
+    .contact .map-info {
+        h4 {
+            font-size: 20px;
+        }
+        h5 {
+            font-size: 15px;
+        }
+        p, ul li {
+            font-size: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+        .contact .glb-content-head {
+        height: 332px;
+        .overlay {
+            background-position-y: 0px;
+            background-size: 125%;
+            background-position-x: 0px;
+        }
+        h2.title {
+            font-size: 64px;
+            margin-top: 67px;
+        }
+    }
+
+    .contact .breadcrumbs {
+        display: none;
+    }
+
+       .contact-article h3 {
+        margin-top: 14px;
+        font-size: 36px;
+        letter-spacing: -0.7px;
+        padding-right: 0;
+        margin-bottom: 44px;
+    }
+
+
+    .contact .glb-content-form form input[type=text], .glb-content-form form input[type=email], .glb-content-form form select {
+    width: 100%;
+    height: 100px;
+    line-height: 60px;
+    border: 4px solid #dde0e0;
+    padding: 0 20px 0 20px;
+    font-size: 28px;
+    font-family: MorganSans;
+    font-weight: 400;
+    //color: #53596a;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 3px #aaa;
+}
+
+.contact .glb-content-form form textarea {
+        height: 300px;
+        margin-bottom: 60px;
+        font-size: 28px;
+        border: 4px solid #dde0e0;
+        box-shadow: 0px 2px 3px #aaa;
+}
+
+.contact .glb-content-form form label {
+    font-size: 24px;
+}
+
+.contact .glb-content-form button {
+    float: right;
+    padding-right: 126px;
+    margin-right: 10px;
+    padding-left: 91px;
+    width: 326px;
+    height: 80px;
+    top: 600px;
+    right: 65px;
+        span {
+            top: 34%;
+            left: 12%;
+            font-size: 28px;
+    }
+        i {
+        top: 31px;
+        right: 32px;
+        font-size: 20px;
+    }
+ }
+
+
+/*-------------------ASIDE------------------------*/
+
+
+.contact .global-map {
+    min-height: 600px;
+    h2 span {
+        font-size: 38px;
+    }
+
+    .map-nav-section .map-nav ul li {
+    font-size: 24px;
+}
+}
+
+
+.contact .map-info {
+    min-height: 400px;
+    h4 {
+    font-size: 38px;
+}
+h5 {
+    font-size: 26px;
+    line-height: 1.5;
+}
+p, ul li {
+    font-size: 26px;
+}
+ul li {
+    margin-bottom: 38px;
+}
+}
+
+ .contact aside .discover {
+    min-height: 723px;
+    h3 {
+        font-size: 28px;
+        margin: 53px 0 0 50px;
+    }
+    a.btn {
+        width: 326px;
+        height: 80px;
+        top: 600px;
+        right: 65px;
+        span {
+            font-size: 28px;
+            left: 13%;
+            top: 30%;
+        } 
+        i {
+            top: 9px;
+            right: 39px;
+            font-size: 20px;
+        }
+    }
+}
+
+
+}
